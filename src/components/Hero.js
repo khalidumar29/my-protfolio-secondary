@@ -1,7 +1,6 @@
 import React from "react";
 
 // import woman image
-import mypic from "../assets/img/mypic.jpg";
 
 const Hero = () => {
   return (
@@ -25,9 +24,6 @@ const Hero = () => {
             <button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all'>
               Work with me
             </button>
-          </div>
-          <div className='hidden lg:flex flex-1 justify-end items-end h-full'>
-            <img src={mypic} alt='' />
           </div>
         </div>
       </div>
