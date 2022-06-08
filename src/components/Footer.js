@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
 // import social data
-import { social } from '../data';
+import { social } from "../data";
 
 // import logo
-import Logo from '../assets/img/logo.svg';
+import Logo from "../assets/img/mynamelogo.png";
 
 const Footer = () => {
   return (
@@ -25,7 +25,7 @@ const Footer = () => {
             <img src={Logo} alt='' />
           </div>
           <p className='text-paragraph opacity-80 text-[15px]'>
-            &copy; 2022 Cristian Mihai. All rights reserved.
+            &copy; 2022 khalid umar. All rights reserved.
           </p>
         </div>
       </div>
