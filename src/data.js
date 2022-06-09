@@ -120,25 +120,30 @@ export const projectsData = [
   {
     id: "2",
     image: Project2,
+    sampleImage: [SkillImg1, SkillImg1, SkillImg1],
     name: "Red-Farm",
+    sampleImage: [SkillImg1, SkillImg1, SkillImg1],
     link: "https://inentory-managment.web.app/",
     category: "web development",
   },
   {
     id: "3",
     image: Project3,
+    sampleImage: [SkillImg1, SkillImg1, SkillImg1],
     name: "Modern User Interface",
     category: "UI/UX design",
   },
   {
     id: "4",
     image: Project4,
+    sampleImage: [SkillImg1, SkillImg1, SkillImg1],
     name: "Photo Editing",
     category: "Photoshop",
   },
   {
     id: "5",
     image: Project5,
+    sampleImage: [SkillImg1, SkillImg1, SkillImg1],
     name: "Doctors Portal",
     link: "https://doctors-portal-bd23e.web.app/",
     category: "web development",
@@ -146,6 +151,7 @@ export const projectsData = [
   {
     id: "6",
     image: Project6,
+    sampleImage: [SkillImg1, SkillImg1, SkillImg1],
     name: "Red Onion",
     link: "https://red-onion-d83be.web.app/",
     category: "web development",
