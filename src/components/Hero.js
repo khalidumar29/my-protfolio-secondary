@@ -22,7 +22,12 @@ const Hero = () => {
               dolor elit.
             </p>
             <button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all'>
-              Dowanload Resume
+              <a
+                target='_blanck'
+                href='https://drive.google.com/file/d/1yZqTtaXK9RR-Cp-yCqWRIG1jnhn3Ml4i/view?usp=sharing'
+              >
+                Dowanload Resume
+              </a>
             </button>
           </div>
         </div>

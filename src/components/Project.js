@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Project = ({ item }) => {
   return (
@@ -9,8 +9,11 @@ const Project = ({ item }) => {
       <p className='capitalize text-accent text-sm mb-3'>{item.category}</p>
       <h3 className='text-2xl font-semibold capitalize mb-3'>{item.name}</h3>
       <p className='text-base max-w-md'>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit veniam
-        obcaecati ipsam.
+        {item.link && (
+          <a className='btn btn-outline btn-ghost' href={item.link}>
+            Live Link
+          </a>
+        )}
       </p>
     </div>
   );
