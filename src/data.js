@@ -4,12 +4,12 @@ import {
   FiGithub,
   FiLayout,
   FiSettings,
-  FiPenTool,
-  FiTag,
   FiMail,
   FiMapPin,
+  FiFigma,
 } from "react-icons/fi";
 import { FaFacebookF } from "react-icons/fa";
+import { HiPhotograph } from "react-icons/hi";
 
 // companies icons
 import FreelancerBrandIcon from "./assets/img/brands/freelancer.png";
@@ -133,7 +133,7 @@ export const projectsData = [
     id: "4",
     image: Project4,
     name: "project name 4",
-    category: "branding",
+    category: "Photoshop",
   },
   {
     id: "5",
@@ -161,7 +161,7 @@ export const projectsNav = [
     name: "web development",
   },
   {
-    name: "branding",
+    name: "Photoshop",
   },
 ];
 
@@ -208,14 +208,14 @@ export const services = [
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
   },
   {
-    icon: <FiPenTool />,
-    name: "Branding",
+    icon: <FiFigma />,
+    name: "UI / UX",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
   },
   {
-    icon: <FiTag />,
-    name: "SEO",
+    icon: <HiPhotograph />,
+    name: "Photo Editing",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
   },

@@ -22,7 +22,7 @@ const Hero = () => {
               dolor elit.
             </p>
             <button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all'>
-              Work with me
+              Dowanload Resume
             </button>
           </div>
         </div>
