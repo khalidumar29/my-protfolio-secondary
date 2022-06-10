@@ -50,7 +50,7 @@ const ProjectDetails = () => {
               </div>
             )}
           </div>
-          <div className='lg:flex md:mt-5 sm:mt-5  flex-1 justify-center items-center h-full'>
+          <div className='lg:flex md:mt-5 sm:mt-5 lg:ml-[10px] flex-1 justify-center items-center h-full'>
             <div
               id='carouselExampleCaptions'
               class='carousel slide relative'

@@ -45,6 +45,12 @@ import TestiImage3 from "./assets/img/testimonials/testimonial-3.webp";
 import redFarmImage1 from "./assets/img/projects/Web development/redFarm1.png";
 import redFarmImage2 from "./assets/img/projects/Web development/redFarm-2.png";
 import redFarmImage3 from "./assets/img/projects/Web development/redFarm3.png";
+import doctros_portal1 from "./assets/img/projects/Web development/doctros_portal1.png";
+import doctros_portal2 from "./assets/img/projects/Web development/doctros_portal2.png";
+import doctros_portal3 from "./assets/img/projects/Web development/doctros_portal3.png";
+import redOnion1 from "./assets/img/projects/Web development/redOnion1.png";
+import redOnion2 from "./assets/img/projects/Web development/redOnion2.png";
+import redOnion3 from "./assets/img/projects/Web development/redOnion3.png";
 
 // navigation
 export const navigation = [
@@ -127,7 +133,11 @@ export const projectsData = [
     image: Project2,
     sampleImage: [redFarmImage1, redFarmImage2, redFarmImage3],
     name: "Red-Farm",
-    link: ["https://inentory-managment.web.app/", "", ""],
+    link: [
+      "https://inentory-managment.web.app/",
+      "https://github.com/khalidumar29/redfarm-client",
+      "https://github.com/khalidumar29/redfarm-server",
+    ],
     category: "web development",
   },
   {
@@ -147,17 +157,25 @@ export const projectsData = [
   {
     id: "5",
     image: Project5,
-    sampleImage: [SkillImg1, SkillImg1, SkillImg1],
+    sampleImage: [doctros_portal1, doctros_portal2, doctros_portal3],
     name: "Doctors Portal",
-    link: "https://doctors-portal-bd23e.web.app/",
+    link: [
+      "https://doctors-portal-bd23e.web.app/",
+      "https://github.com/khalidumar29/doctros-portal-client",
+      "https://github.com/khalidumar29/doctros-portal-server",
+    ],
     category: "web development",
   },
   {
     id: "6",
     image: Project6,
-    sampleImage: [SkillImg1, SkillImg1, SkillImg1],
+    sampleImage: [redOnion1, redOnion2, redOnion3],
     name: "Red Onion",
-    link: "https://red-onion-d83be.web.app/",
+    link: [
+      "https://red-onion-d83be.web.app/",
+      "https://github.com/khalidumar29/red-onion-client",
+      "https://github.com/khalidumar29/red-onion-server",
+    ],
     category: "web development",
   },
 ];
