@@ -122,7 +122,6 @@ export const projectsData = [
     image: Project2,
     sampleImage: [SkillImg1, SkillImg1, SkillImg1],
     name: "Red-Farm",
-    sampleImage: [SkillImg1, SkillImg1, SkillImg1],
     link: "https://inentory-managment.web.app/",
     category: "web development",
   },

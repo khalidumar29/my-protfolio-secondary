@@ -1,6 +1,5 @@
 import React from "react";
-import { Route, Link, Routes } from "react-router-dom";
-import ProjectDetails from "./ProjectDetails";
+import { Link } from "react-router-dom";
 
 const Project = ({ item }) => {
   return (
@@ -16,7 +15,7 @@ const Project = ({ item }) => {
           className='btn btn-outline btn-ghost'
           href={item.link}
         >
-          Live Link
+          Details
         </Link>
       </p>
     </div>
