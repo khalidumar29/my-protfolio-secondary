@@ -7,7 +7,7 @@ const ProjectDetails = () => {
   const project = projectsData.filter((p) => p.id === id);
   const { name, link, sampleImage } = project[0];
   return (
-    <section className='lg:h-[85vh] flex items-center bg-primary lg:bg-cover lg:bg-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden'>
+    <section className='lg:h-[100vh] flex items-center bg-primary lg:bg-cover lg:bg-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden'>
       <div className='container mx-auto h-full'>
         <div className='lg:flex items-center h-full pt-8'>
           <div className='flex-1 flex flex-col items-center lg:items-start'>
@@ -18,11 +18,7 @@ const ProjectDetails = () => {
             {link && (
               <div className='flex justify-between gap-5'>
                 <button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all'>
-                  <a
-                    className='lg:text-xl flex'
-                    target='_blanck'
-                    href={link[0]}
-                  >
+                  <a target='_blanck' href={link[0]}>
                     Live Link
                   </a>
                 </button>
