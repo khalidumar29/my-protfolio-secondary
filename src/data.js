@@ -41,6 +41,11 @@ import TestiImage1 from "./assets/img/testimonials/testimonial-1.webp";
 import TestiImage2 from "./assets/img/testimonials/testimonial-2.webp";
 import TestiImage3 from "./assets/img/testimonials/testimonial-3.webp";
 
+// project image
+import redFarmImage1 from "./assets/img/projects/Web development/redFarm1.png";
+import redFarmImage2 from "./assets/img/projects/Web development/redFarm-2.png";
+import redFarmImage3 from "./assets/img/projects/Web development/redFarm3.png";
+
 // navigation
 export const navigation = [
   {
@@ -120,9 +125,9 @@ export const projectsData = [
   {
     id: "2",
     image: Project2,
-    sampleImage: [SkillImg1, SkillImg1, SkillImg1],
+    sampleImage: [redFarmImage1, redFarmImage2, redFarmImage3],
     name: "Red-Farm",
-    link: "https://inentory-managment.web.app/",
+    link: ["https://inentory-managment.web.app/", "", ""],
     category: "web development",
   },
   {
