@@ -42,15 +42,24 @@ import TestiImage2 from "./assets/img/testimonials/testimonial-2.webp";
 import TestiImage3 from "./assets/img/testimonials/testimonial-3.webp";
 
 // project image
-import redFarmImage1 from "./assets/img/projects/Web development/redFarm1.png";
-import redFarmImage2 from "./assets/img/projects/Web development/redFarm-2.png";
-import redFarmImage3 from "./assets/img/projects/Web development/redFarm3.png";
-import doctros_portal1 from "./assets/img/projects/Web development/doctros_portal1.png";
-import doctros_portal2 from "./assets/img/projects/Web development/doctros_portal2.png";
-import doctros_portal3 from "./assets/img/projects/Web development/doctros_portal3.png";
-import redOnion1 from "./assets/img/projects/Web development/redOnion1.png";
-import redOnion2 from "./assets/img/projects/Web development/redOnion2.png";
-import redOnion3 from "./assets/img/projects/Web development/redOnion3.png";
+import redFarmImage1 from "./assets/img/projects/project-details-pic/redFarm1.png";
+import redFarmImage2 from "./assets/img/projects/project-details-pic/redFarm-2.png";
+import redFarmImage3 from "./assets/img/projects/project-details-pic/redFarm3.png";
+import doctros_portal1 from "./assets/img/projects/project-details-pic/doctros_portal1.png";
+import doctros_portal2 from "./assets/img/projects/project-details-pic/doctros_portal2.png";
+import doctros_portal3 from "./assets/img/projects/project-details-pic/doctros_portal3.png";
+import redOnion1 from "./assets/img/projects/project-details-pic/redOnion1.png";
+import redOnion2 from "./assets/img/projects/project-details-pic/redOnion2.png";
+import redOnion3 from "./assets/img/projects/project-details-pic/redOnion3.png";
+import photoEditin1 from "./assets/img/projects/project-details-pic/photoEditin1.png";
+import photoEditin2 from "./assets/img/projects/project-details-pic/photoEditin2.png";
+import photoEditin3 from "./assets/img/projects/project-details-pic/photoEditin3.png";
+import vector1 from "./assets/img/projects/project-details-pic/vector1.png";
+import vector2 from "./assets/img/projects/project-details-pic/vector2.png";
+import vector3 from "./assets/img/projects/project-details-pic/vector3.png";
+import ui1 from "./assets/img/projects/project-details-pic/ui1.png";
+import ui2 from "./assets/img/projects/project-details-pic/ui2.png";
+import ui3 from "./assets/img/projects/project-details-pic/ui3.png";
 
 // navigation
 export const navigation = [
@@ -126,6 +135,7 @@ export const projectsData = [
     id: "1",
     image: Project1,
     name: "Vector Design",
+    sampleImage: [vector1, vector2, vector3],
     category: "UI/UX design",
   },
   {
@@ -143,14 +153,14 @@ export const projectsData = [
   {
     id: "3",
     image: Project3,
-    sampleImage: [SkillImg1, SkillImg1, SkillImg1],
+    sampleImage: [ui1, ui2, ui3],
     name: "Modern User Interface",
     category: "UI/UX design",
   },
   {
     id: "4",
     image: Project4,
-    sampleImage: [SkillImg1, SkillImg1, SkillImg1],
+    sampleImage: [photoEditin1, photoEditin2, photoEditin3],
     name: "Photo Editing",
     category: "Photoshop",
   },

@@ -6,7 +6,6 @@ const ProjectDetails = () => {
   const { id } = useParams();
   const project = projectsData.filter((p) => p.id === id);
   const { name, link, sampleImage } = project[0];
-  console.log(name, project);
   return (
     <section className='lg:h-[85vh] flex items-center bg-primary lg:bg-cover lg:bg-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden'>
       <div className='container mx-auto h-full'>
