@@ -4,7 +4,7 @@ import React from "react";
 import { navigation } from "../data";
 
 // import Link
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 const Nav = () => {
   return (

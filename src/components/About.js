@@ -21,13 +21,13 @@ const About = () => {
               <p className='mb-4 text-accent'>Junior Web Developer</p>
               <hr className='mb-8 opacity-5' />
               <p className='mb-8'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit tempore
-                earum dolorum quo consequatur rem nihil hic ducimus rerum soluta
-                neque harum velit molestiae dignissimos distinctio dolorum nisi
-                labore culpa nihil. <br />
+                Hi There,
                 <br />
-                Qui doloremque quod sit accusantium unde totam inventore
-                cupiditate ratione esse maxime eum recusandae ducimus.
+                Thanks for visiting my protfolio I’m Khalid, a student of
+                computer science and technology also I’m a professional UI/UX &
+                web developer. I love working on UI/UX, and web development. I
+                get ideas for my work from the depths of my mind. Which follows
+                modern design methods.
               </p>
             </div>
             <button className='btn btn-md bg-accent hover:bg-secondary-hover transition-all'>
